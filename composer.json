@@ -1,10 +1,10 @@
 {
-	"name": "shameerc/slim-skeleton",
+    "name": "shameerc/slim-skeleton",
     "description": "Slim Framework 3 skeleton project with Doctrine DBAL and Aura.Di",
     "license": "MIT",
     "type": "project",
     "keywords": ["slim-framework", "skeleton", "doctrine"],
-	"authors": [
+    "authors": [
         {
             "name": "Shameer",
             "email": "me@shameerc.com",
@@ -12,14 +12,14 @@
         }
     ],
     "require": {
-    	"php": ">=5.5.0",
+        "php": ">=5.5.0",
         "slim/slim": "^3.0@RC",
         "doctrine/dbal": "2.5.*",
         "slim/flash": "^0.1.0",
         "monolog/monolog": "^1.13",
         "slim/twig-view": "^1.1",
-		"aura/di": "3.x-dev",
-		"vlucas/phpdotenv": "^2.0"
+        "aura/di": "3.x-dev",
+        "vlucas/phpdotenv": "^2.0"
     },
     "autoload": {
         "psr-4": {
