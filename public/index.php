@@ -19,7 +19,7 @@ $dotenv->load();
 // Instantiate the app
 $settings = require __DIR__.'/../app/config/config.php';
 
-$di = new App\Service\Container($settings);
+$di = new SlimAura\Container($settings);
 
 $app = new \Slim\App($di);
 // Set up dependencies

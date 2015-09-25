@@ -4,6 +4,7 @@
     "license": "MIT",
     "type": "project",
     "keywords": ["slim-framework", "skeleton", "doctrine"],
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Shameer",
@@ -18,8 +19,8 @@
         "slim/flash": "^0.1.0",
         "monolog/monolog": "^1.13",
         "slim/twig-view": "^1.1",
-        "aura/di": "3.x-dev",
-        "vlucas/phpdotenv": "^2.0"
+        "vlucas/phpdotenv": "^2.0",
+        "shameerc/slim3-aura-di": "dev-master"
     },
     "autoload": {
         "psr-4": {
