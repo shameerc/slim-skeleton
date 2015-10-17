@@ -17,6 +17,8 @@ $di->set('view', function () use ($di) {
 
 // Flash messages
 $di->set('flash', $di->lazyNew('\Slim\Flash\Messages'));
+
+// Set Callable Resolver
 $di->set('callableResolver', new App\CallableResolver($di));
 
 // -----------------------------------------------------------------------------
