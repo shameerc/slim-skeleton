@@ -10,7 +10,6 @@ if (PHP_SAPI == 'cli-server') {
 }
 
 require __DIR__.'/../vendor/autoload.php';
-session_start();
 
 // Load env vars
 $dotenv = new Dotenv\Dotenv(__DIR__.'/../');

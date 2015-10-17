@@ -17,6 +17,7 @@ $di->set('view', function () use ($di) {
 
 // Flash messages
 $di->set('flash', $di->lazyNew('\Slim\Flash\Messages'));
+$di->set('callableResolver', new App\CallableResolver($di));
 
 // -----------------------------------------------------------------------------
 // Service factories 
@@ -44,5 +45,3 @@ $di->setters['App\Controller\AbstractController']['setLogger'] = $di->get('logge
 // Simply pass a usermodel object 
 // @TODO, Pass Services to controller instead of Models
 $di->params['App\Controller\HomeController']['user'] = $di->lazyNew('App\Model\UserModel');
-
-$di->set('App\Controller\HomeController', $di->lazyNew('App\Controller\HomeController'));
