@@ -4,7 +4,6 @@
     "license": "MIT",
     "type": "project",
     "keywords": ["slim-framework", "skeleton", "doctrine"],
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Shameer",
