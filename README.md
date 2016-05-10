@@ -5,7 +5,7 @@ We have replaced Pimple Container with Aura.Di for dependency injection.
 
 ###Installation
 ```
-composer create-project shameerc/slim-skeleton:dev-master
+composer create-project shameerc/slim-skeleton
 ```
 
 ###Configuration
